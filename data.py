@@ -91,3 +91,4 @@ def load_test_data():
 if __name__ == '__main__':
     create_train_data()
     create_test_data()
+    return 0

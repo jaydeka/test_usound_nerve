@@ -51,7 +51,7 @@ def submission():
             print('{}/{}'.format(i, total))
 
     first_row = 'img,pixels'
-    file_name = 'submission.csv'
+    file_name = 'test_usound_nerve/submission.csv'
 
     with open(file_name, 'w+') as f:
         f.write(first_row + '\n')
