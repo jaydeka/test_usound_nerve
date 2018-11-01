@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "test_usound_nerve/data.py", line 6, in <module>
+    from skimage.io import imsave, imread
+ImportError: No module named skimage.io
+Traceback (most recent call last):
+  File "test_usound_nerve/train.py", line 4, in <module>
+    from skimage.transform import resize
+ImportError: No module named skimage.transform
